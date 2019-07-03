@@ -1,0 +1,103 @@
+c:\users\frozen_heart\documents\visual studio 2013\Projects\AutoStorage\AutoStorage\bin\Debug\AutoStorage.exe.config
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\bin\Debug\AutoStorage.exe
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\bin\Debug\AutoStorage.pdb
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\bin\Debug\MetroFramework.Design.dll
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\bin\Debug\MetroFramework.dll
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Properties.Resources.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.csproj.GenerateResource.Cache
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.exe
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.pdb
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.finansersMenu.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.managerMenu.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.authorizationFinansers.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.authorizationManagers.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.StartLogin.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.finanserRegistr.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.managerRegistr.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.TestingForm.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\bin\Debug\AutoStorage.mdf
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\bin\Debug\AutoStorage_log.ldf
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.addWayBill.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.workWithBills.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.billsLookup.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.csprojResolveAssemblyReference.cache
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.redactWayBills.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.TestingForm2.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Home.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.changeManagerPass.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.deleteWayBills.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.deletePurchaseBills.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.transpOperationPurchaseBills.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.lookUpStorages.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Storage1.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.addPurchaseBill.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.redactPurchaseBills.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.csproj.ResolveComReference.cache
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Storage2.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Storage3.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Storage4.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Storage5.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Storage6.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Home2.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.changeFinansersPass.resources
+C:\Users\Frozen_Heart\Documents\Visual Studio 2013\Projects\AutoStorage\AutoStorage\obj\Debug\AutoStorage.financerBillsLookUp.resources
+C:\AutoStorage\AutoStorage\bin\Debug\AutoStorage.exe.config
+C:\AutoStorage\AutoStorage\obj\Debug\Interop.ProEngine.dll
+C:\AutoStorage\AutoStorage\obj\Debug\Interop.RoseSETUPLib.dll
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.csproj.ResolveComReference.cache
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.exe
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.pdb
+C:\AutoStorage\AutoStorage\bin\Debug\AutoStorage.mdf
+C:\AutoStorage\AutoStorage\bin\Debug\AutoStorage_log.ldf
+C:\AutoStorage\AutoStorage\bin\Debug\AutoStorage.exe.manifest
+C:\AutoStorage\AutoStorage\bin\Debug\AutoStorage.application
+C:\AutoStorage\AutoStorage\bin\Debug\AutoStorage.exe
+C:\AutoStorage\AutoStorage\bin\Debug\AutoStorage.pdb
+C:\AutoStorage\AutoStorage\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\AutoStorage\AutoStorage\bin\Debug\MetroFramework.Design.dll
+C:\AutoStorage\AutoStorage\bin\Debug\MetroFramework.dll
+C:\AutoStorage\AutoStorage\bin\Debug\MetroFramework.Fonts.dll
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.csprojResolveAssemblyReference.cache
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.aboutAddPurchaseBills.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.aboutAddWayBills.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.addPurchaseBill.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.addWayBill.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.authorizationFinansers.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.authorizationManagers.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.billsLookup.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.changeFinansersPass.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.changeManagerPass.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.deletePurchaseBills.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.deleteWayBills.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.financerBillsLookUp.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.finanserRegistr.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.finansersMenu.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Home.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Home2.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.lookUpStorages.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.managerMenu.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.managerRegistr.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Properties.Resources.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.redactPurchaseBills.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.redactWayBills.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.StartLogin.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Storage1.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Storage2.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Storage3.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Storage4.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Storage5.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.Storage6.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.transpOperationPurchaseBills.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.workWithBills.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.csproj.GenerateResource.Cache
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.exe.manifest
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.application
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.aboutLookUpBills.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.aboutFinansersBillLookUp.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.aboutRedactPurchaseBills.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.aboutRedactWayBills.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.aboutOpeartionPurchaseBills.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.aboutStorages.resources
+C:\AutoStorage\AutoStorage\obj\Debug\AutoStorage.getHelp.resources

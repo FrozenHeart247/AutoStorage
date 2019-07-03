@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoStorage", "AutoStorage\AutoStorage.csproj", "{C99C2A9E-8FCF-42F3-AAB9-B91013BBB2F4}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{CBA9A993-BBC5-47F1-B665-3281413C6180}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C99C2A9E-8FCF-42F3-AAB9-B91013BBB2F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99C2A9E-8FCF-42F3-AAB9-B91013BBB2F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99C2A9E-8FCF-42F3-AAB9-B91013BBB2F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99C2A9E-8FCF-42F3-AAB9-B91013BBB2F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA9A993-BBC5-47F1-B665-3281413C6180}.Debug|Any CPU.ActiveCfg = Debug
+		{CBA9A993-BBC5-47F1-B665-3281413C6180}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

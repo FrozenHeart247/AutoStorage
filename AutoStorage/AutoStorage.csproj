@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C99C2A9E-8FCF-42F3-AAB9-B91013BBB2F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutoStorage</RootNamespace>
+    <AssemblyName>AutoStorage</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Frozen_Heart\Desktop\studiying\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3BC22E971035A767C11556D4E59740A5647DCA2C</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>AutoStorage_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\packages\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutAddPurchaseBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutAddPurchaseBills.Designer.cs">
+      <DependentUpon>aboutAddPurchaseBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aboutAddWayBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutAddWayBills.Designer.cs">
+      <DependentUpon>aboutAddWayBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aboutFinansersBillLookUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutFinansersBillLookUp.Designer.cs">
+      <DependentUpon>aboutFinansersBillLookUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aboutLookUpBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutLookUpBills.Designer.cs">
+      <DependentUpon>aboutLookUpBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aboutOpeartionPurchaseBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutOpeartionPurchaseBills.Designer.cs">
+      <DependentUpon>aboutOpeartionPurchaseBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aboutRedactPurchaseBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutRedactPurchaseBills.Designer.cs">
+      <DependentUpon>aboutRedactPurchaseBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aboutRedactWayBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutRedactWayBills.Designer.cs">
+      <DependentUpon>aboutRedactWayBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="aboutStorages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aboutStorages.Designer.cs">
+      <DependentUpon>aboutStorages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addPurchaseBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addPurchaseBill.Designer.cs">
+      <DependentUpon>addPurchaseBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="addWayBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addWayBill.Designer.cs">
+      <DependentUpon>addWayBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="authorizationFinansers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="authorizationFinansers.Designer.cs">
+      <DependentUpon>authorizationFinansers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="authorizationManagers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="authorizationManagers.Designer.cs">
+      <DependentUpon>authorizationManagers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="billsLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="billsLookup.Designer.cs">
+      <DependentUpon>billsLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="changeFinansersPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changeFinansersPass.Designer.cs">
+      <DependentUpon>changeFinansersPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="changeManagerPass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changeManagerPass.Designer.cs">
+      <DependentUpon>changeManagerPass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectionSql.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="deletePurchaseBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deletePurchaseBills.Designer.cs">
+      <DependentUpon>deletePurchaseBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteWayBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteWayBills.Designer.cs">
+      <DependentUpon>deleteWayBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="financerBillsLookUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="financerBillsLookUp.Designer.cs">
+      <DependentUpon>financerBillsLookUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finanserRegistr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finanserRegistr.Designer.cs">
+      <DependentUpon>finanserRegistr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="finansersMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="finansersMenu.Designer.cs">
+      <DependentUpon>finansersMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="getHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="getHelp.Designer.cs">
+      <DependentUpon>getHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home2.Designer.cs">
+      <DependentUpon>Home2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lookUpStorages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lookUpStorages.Designer.cs">
+      <DependentUpon>lookUpStorages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="managerMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="managerMenu.Designer.cs">
+      <DependentUpon>managerMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="managerRegistr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="managerRegistr.Designer.cs">
+      <DependentUpon>managerRegistr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="redactPurchaseBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="redactPurchaseBills.Designer.cs">
+      <DependentUpon>redactPurchaseBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="redactWayBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="redactWayBills.Designer.cs">
+      <DependentUpon>redactWayBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartLogin.Designer.cs">
+      <DependentUpon>StartLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storage1.Designer.cs">
+      <DependentUpon>Storage1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storage2.Designer.cs">
+      <DependentUpon>Storage2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storage3.Designer.cs">
+      <DependentUpon>Storage3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storage4.Designer.cs">
+      <DependentUpon>Storage4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storage5.Designer.cs">
+      <DependentUpon>Storage5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storage6.Designer.cs">
+      <DependentUpon>Storage6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="transpOperationPurchaseBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transpOperationPurchaseBills.Designer.cs">
+      <DependentUpon>transpOperationPurchaseBills.cs</DependentUpon>
+    </Compile>
+    <Compile Include="workWithBills.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="workWithBills.Designer.cs">
+      <DependentUpon>workWithBills.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="aboutAddPurchaseBills.resx">
+      <DependentUpon>aboutAddPurchaseBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aboutAddWayBills.resx">
+      <DependentUpon>aboutAddWayBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aboutFinansersBillLookUp.resx">
+      <DependentUpon>aboutFinansersBillLookUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aboutLookUpBills.resx">
+      <DependentUpon>aboutLookUpBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aboutOpeartionPurchaseBills.resx">
+      <DependentUpon>aboutOpeartionPurchaseBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aboutRedactPurchaseBills.resx">
+      <DependentUpon>aboutRedactPurchaseBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aboutRedactWayBills.resx">
+      <DependentUpon>aboutRedactWayBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="aboutStorages.resx">
+      <DependentUpon>aboutStorages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addPurchaseBill.resx">
+      <DependentUpon>addPurchaseBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addWayBill.resx">
+      <DependentUpon>addWayBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="authorizationFinansers.resx">
+      <DependentUpon>authorizationFinansers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="authorizationManagers.resx">
+      <DependentUpon>authorizationManagers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="billsLookup.resx">
+      <DependentUpon>billsLookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changeFinansersPass.resx">
+      <DependentUpon>changeFinansersPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changeManagerPass.resx">
+      <DependentUpon>changeManagerPass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletePurchaseBills.resx">
+      <DependentUpon>deletePurchaseBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteWayBills.resx">
+      <DependentUpon>deleteWayBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="financerBillsLookUp.resx">
+      <DependentUpon>financerBillsLookUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finanserRegistr.resx">
+      <DependentUpon>finanserRegistr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="finansersMenu.resx">
+      <DependentUpon>finansersMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="getHelp.resx">
+      <DependentUpon>getHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home2.resx">
+      <DependentUpon>Home2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lookUpStorages.resx">
+      <DependentUpon>lookUpStorages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="managerMenu.resx">
+      <DependentUpon>managerMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="managerRegistr.resx">
+      <DependentUpon>managerRegistr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="redactPurchaseBills.resx">
+      <DependentUpon>redactPurchaseBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="redactWayBills.resx">
+      <DependentUpon>redactWayBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartLogin.resx">
+      <DependentUpon>StartLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage1.resx">
+      <DependentUpon>Storage1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage2.resx">
+      <DependentUpon>Storage2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage3.resx">
+      <DependentUpon>Storage3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage4.resx">
+      <DependentUpon>Storage4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage5.resx">
+      <DependentUpon>Storage5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage6.resx">
+      <DependentUpon>Storage6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transpOperationPurchaseBills.resx">
+      <DependentUpon>transpOperationPurchaseBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="workWithBills.resx">
+      <DependentUpon>workWithBills.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="AutoStorage_TemporaryKey.pfx" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet2.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Minimize_Box_Blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AutoStorage.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="AutoStorage_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>AutoStorage.mdf</DependentUpon>
+    </Content>
+    <None Include="bin\Debug\icons8_Question_Mark_64.png" />
+    <None Include="bin\Debug\icons8_Todo_List_64.png" />
+    <None Include="bin\Debug\icons8_Delete_64.png" />
+    <None Include="bin\Debug\icons8_Delete_File_64.png" />
+    <None Include="bin\Debug\icons8_Edit_Property_64.png" />
+    <None Include="bin\Debug\icons8_Add_File_64.png" />
+    <None Include="bin\Debug\icons8_Finansers_64.png" />
+    <None Include="bin\Debug\icons8_Manager_64.png" />
+    <None Include="bin\Debug\icons8_User3_64.png" />
+    <None Include="bin\Debug\icons8_Windows8_64.png" />
+    <None Include="bin\Debug\icons8_Help_64.png" />
+    <None Include="bin\Debug\icons8_User2_64.png" />
+    <None Include="bin\Debug\icons8_User2.ico" />
+    <None Include="bin\Debug\icons8_Menu_32.png" />
+    <None Include="bin\Debug\icons8_Menu_64.png" />
+    <None Include="bin\Debug\icons8_Export_64.png" />
+    <None Include="bin\Debug\icons8_User_64.png" />
+    <None Include="bin\Debug\icons8_Product_64.png" />
+    <None Include="bin\Debug\icons8_Fork_Lift_64.png" />
+    <None Include="bin\Debug\icons8_Purchase_Order_48.png" />
+    <None Include="bin\Debug\icons8_Purchase_Order_64.png" />
+    <None Include="bin\Debug\icons8_Search_64.png" />
+    <None Include="bin\Debug\Frontalnyy-pogruzchik-LW500F.jpg" />
+    <None Include="bin\Debug\VilochniyPorgruzckij.jpg" />
+    <None Include="bin\Debug\KovshoViyPogruzchik.jpg" />
+    <None Include="bin\Debug\3.3.jpg" />
+    <None Include="bin\Debug\3.2.jpg" />
+    <None Include="bin\Debug\3.1.jpg" />
+    <None Include="bin\Debug\4266-3c2ed52bf940ddf2e14a954b2851f2c7.jpg" />
+    <None Include="bin\Debug\2.1.jpg" />
+    <None Include="bin\Debug\4.jpg" />
+    <None Include="bin\Debug\3.jpg" />
+    <None Include="bin\Debug\2.jpg" />
+    <None Include="bin\Debug\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 с пакетом обновления 1 %28SP1%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Visual.C++.12.0.x64">
+      <Visible>False</Visible>
+      <ProductName>Библиотеки времени выполнения Visual C++ 2013 %28x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Visual.C++.12.0.x86">
+      <Visible>False</Visible>
+      <ProductName>Библиотеки времени выполнения Visual C++ 2013 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ProEngine">
+      <Guid>{37DB00A3-DCCA-49D7-A8F6-A1D091706620}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="RoseSETUPLib">
+      <Guid>{AB2234AD-58C1-11D2-AE36-00C04F79DC6D}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
